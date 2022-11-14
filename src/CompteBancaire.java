@@ -3,7 +3,7 @@ public class CompteBancaire
 {
  private int numero;// Numéro du compte.
  private double solde;// Argent disponible sur le compte.
- Journalisation js=new Journalisation();
+ Journalisation js=Journalisation.getInstance();
  
  // Constructeur d'un CompteBancaire à partir de son numéro.
  public CompteBancaire(int numero)

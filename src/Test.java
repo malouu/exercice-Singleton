@@ -22,5 +22,7 @@ public class Test
     //trouver la référance sur l'espace mémoire de cb1 et cb2
     System.out.println(cb1.js.toString());
     System.out.println(cb2.js.toString());
+    //maintenant on va tester si les deux comptes bancaires ont la même référence
+    //now cb1.js et cb2.js se pointent sur la mm espace 
     }
    }
